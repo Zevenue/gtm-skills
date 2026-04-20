@@ -66,22 +66,13 @@ Each skill's `skill.md` is the authoritative spec for what it expects and what i
 
 These skills are opinionated. They encode judgments like:
 
-- **Three emails per sequence. Not five. Not seven.** If three well-targeted emails don't land, more won't help — the signal or the angle was wrong.
-- **The list IS the message.** If you need heavy personalization to make copy work, your targeting is wrong.
+- **Three emails per sequence (max).** If three well-targeted emails don't land, more won't help — the signal or the angle was wrong.
+- **The message is only as good as the list.** If you need heavy personalization to make copy work, your targeting is wrong.
 - **Ask for truth, not time.** Cold email CTAs should be "Is this you?" not "Can we schedule 30 minutes?"
 - **Every signal has a score.** A 4/10 is fine — it helps the Email Writer calibrate tone.
 
 See `context/outreach/outreach-principles.md` for the full framework.
 
-## What's NOT in here
-
-- Our bookkeeping, delivery, or client-specific skills — those stay internal.
-- Our sales/proposal engineering — intentional; publishing that would help buyers negotiate against us.
-- A full Clay/Apollo/n8n stack — these skills produce specs you wire into whatever infrastructure you have.
-
-## Contributing
-
-These skills are published as a reference, not a maintained open-source product. If you find a bug or ship an extension, PRs welcome — but we don't guarantee review cadence.
 
 ## License
 
@@ -89,4 +80,4 @@ MIT. See [LICENSE](LICENSE).
 
 ## About Zevenue
 
-[Zevenue](https://zevenue.com) is a Toronto-based GTM engineering firm. We build custom outbound + RevOps systems for seed through Series B B2B startups. Bootstrapped, profitable, four years in. Reach out: yusuf@zevenue.com.
+[Zevenue](https://zevenue.com) is a Toronto-based GTM engineering firm. We build custom outbound + RevOps systems for GTM teams. Reach me at: yusuf@zevenue.com
