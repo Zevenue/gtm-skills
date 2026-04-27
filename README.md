@@ -2,7 +2,7 @@
 
 The methodology layer [Zevenue](https://zevenue.com) runs on top of Claude Code. These are the Claude Code skills we use to turn outbound from a guessing game into an engineering discipline — productized and shareable.
 
-If you run outbound, do RevOps, or build GTM systems, these are drop-in skills that encode the frameworks we've tuned across four years of client delivery.
+If you run outbound, do RevOps, or build GTM systems, these are drop-in skills that encode the frameworks we've tuned across four years of GTM delivery.
 
 ## What's in here
 
@@ -10,6 +10,7 @@ If you run outbound, do RevOps, or build GTM systems, these are drop-in skills t
 |---|---|
 | [`signal-builder`](.claude/skills/signal-builder/) | Scans a prospect's website + enrichment data and produces a ranked signal analysis. Scores each signal 1-10 and recommends a campaign approach per signal. |
 | [`email-writer`](.claude/skills/email-writer/) | Generates 3-email cold campaigns using the Situation → Insight → Inquisition methodology. Enforces deliverability rules, word limits, and a QA checklist. |
+| [`creative-variable`](.claude/skills/creative-variable/) | Specs the personalization variables for a campaign — names, grammar, sources, Claygent prompts, fallbacks, rendered examples. Encodes the four archetypes (verbatim-pain, manual-task, strategic-alternative, failure-mode). |
 | [`prospect-posts`](.claude/skills/prospect-posts/) | Scrapes recent LinkedIn posts from one or more prospect profiles via Apify and scans them for a given theme. Useful for account intelligence. |
 | [`job-search`](.claude/skills/job-search/) | Queries the TheirStack API for job postings at a set of companies. Hiring patterns are one of the strongest timing signals for outbound. |
 | [`linkedin-extract`](.claude/skills/linkedin-extract/) | Archives your own LinkedIn posts locally for blog/newsletter repurposing. |
@@ -17,9 +18,9 @@ If you run outbound, do RevOps, or build GTM systems, these are drop-in skills t
 They chain:
 
 ```
-signal-builder → email-writer          (core outbound loop)
-job-search     → signal-builder        (hiring is a signal input)
-prospect-posts → signal-builder        (content signals feed targeting)
+signal-builder → creative-variable → email-writer    (core outbound loop)
+job-search     → signal-builder                      (hiring is a signal input)
+prospect-posts → signal-builder                      (content signals feed targeting)
 linkedin-extract → [your content repurposing skill]
 ```
 
@@ -53,11 +54,12 @@ linkedin-extract → [your content repurposing skill]
 In Claude Code, invoke by name:
 
 ```
-/signal-builder https://prospect.com  [client-context]
-/email-writer   [signal output]       [client-context]       [prospect info]
-/job-search     stripe.com,notion.so  --title "SDR,BDR"
-/prospect-posts https://linkedin.com/in/someone  "AI-first GTM"
-/linkedin-extract https://linkedin.com/in/your-handle  --count 20
+/signal-builder    https://prospect.com  [offer-context]
+/email-writer      [signal output]       [offer-context]       [prospect info]
+/creative-variable [campaign angle]      [ICP]                 [existing copy?]
+/job-search        stripe.com,notion.so  --title "SDR,BDR"
+/prospect-posts    https://linkedin.com/in/someone  "AI-first GTM"
+/linkedin-extract  https://linkedin.com/in/your-handle  --count 20
 ```
 
 Each skill's `skill.md` is the authoritative spec for what it expects and what it returns.

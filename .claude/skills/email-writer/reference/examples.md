@@ -6,7 +6,7 @@ Real-pattern examples drawn from Zevenue campaigns. Each annotated with signal u
 
 ## Example 1: Job Post Signal → PQS
 
-**Context:** Client sells supply chain monitoring software. Prospect is a mid-market manufacturer that posted a job for "Supply Chain Coordinator" with responsibilities including "tracking shipments, coordinating with suppliers via email, and resolving delivery exceptions."
+**Context:** Offer is supply chain monitoring software. Prospect is a mid-market manufacturer that posted a job for "Supply Chain Coordinator" with responsibilities including "tracking shipments, coordinating with suppliers via email, and resolving delivery exceptions."
 
 **Signal:** Hiring for a role whose core tasks the product automates (Score: 9/10)
 **Pattern:** PQS (Pain-Qualified Segment)
@@ -30,7 +30,7 @@ Is that where your team's time is going too?
 
 ## Example 2: Tech Stack Signal → PQS
 
-**Context:** Client sells an events/community platform. Prospect is a yoga studio using Mindbody for booking and a separate Eventbrite page for workshops.
+**Context:** Offer is an events/community platform. Prospect is a yoga studio using Mindbody for booking and a separate Eventbrite page for workshops.
 
 **Signal:** Fragmented tech stack — two platforms doing what one should (Score: 7/10)
 **Pattern:** PQS
@@ -54,7 +54,7 @@ Dealing with that split?
 
 ## Example 3: Funding Signal → Pain-led
 
-**Context:** Client sells sales enablement tooling. Prospect just raised Series A ($12M) and is hiring 4 SDRs.
+**Context:** Offer is sales enablement tooling. Prospect just raised Series A ($12M) and is hiring 4 SDRs.
 
 **Signal:** Fresh funding + hiring SDRs (Score: 7/10)
 **Pattern:** Pain-led
@@ -77,9 +77,9 @@ Already building that, or still figuring out what breaks first?
 
 ## Example 4: Review Signal → PVP
 
-**Context:** Client sells customer onboarding software. Prospect's product has G2 reviews mentioning "slow onboarding" and "confusing setup process."
+**Context:** Offer is customer onboarding software. Prospect's product has G2 reviews mentioning "slow onboarding" and "confusing setup process."
 
-**Signal:** Negative reviews mentioning the exact problem the client solves (Score: 9/10)
+**Signal:** Negative reviews mentioning the exact problem your offer solves (Score: 9/10)
 **Pattern:** PVP (Permissionless Value Prop)
 
 ```
@@ -101,7 +101,7 @@ Want me to send it over?
 
 ## Example 5: No Signal → Pain-led Fallback
 
-**Context:** Client sells warehouse management software. Prospect is a mid-market e-commerce company, 200 employees, no specific signals found beyond ICP match.
+**Context:** Offer is warehouse management software. Prospect is a mid-market e-commerce company, 200 employees, no specific signals found beyond ICP match.
 
 **Signal:** ICP match, no behavioral signals (Score: 3/10)
 **Pattern:** Pain-led fallback
@@ -125,9 +125,9 @@ Is fulfillment accuracy something you're tracking closely, or more of a "we'll d
 
 ## Example 6: Conference Signal → PQS
 
-**Context:** Client sells procurement automation. Prospect's VP of Supply Chain spoke at an industry conference on "reducing supplier lead time variability."
+**Context:** Offer is procurement automation. Prospect's VP of Supply Chain spoke at an industry conference on "reducing supplier lead time variability."
 
-**Signal:** Conference speaking on a topic the client addresses (Score: 7/10)
+**Signal:** Conference speaking on a topic your offer addresses (Score: 7/10)
 **Pattern:** PQS
 
 ```
