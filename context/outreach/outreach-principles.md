@@ -31,14 +31,14 @@ The Clay enrichment pipeline gives you structured signals. Write copy against wh
 
 ## Two high-value campaign patterns
 
-### PQS (Pain-Qualified Segment)
+### Pain-led
 Target by pain intensity, not firmographics. The signal reveals specific pain → you describe the pain → you ask "Is this you?"
 
 **When it works best:** High-intent signals (score 7+). Job posts, competitor usage with friction, public complaints.
 
 **Structure:** Signal → specific pain → "Is this you?"
 
-### PVP (Permissionless Value Prop)
+### Value-led
 Do the work before asking for anything. Find something specific and useful for the prospect. Deliver it. Then ask if they want more.
 
 **When it works best:** When you have rich data about the prospect and can package it into something useful (audit, comparison, analysis, finding).
@@ -51,7 +51,7 @@ Do the work before asking for anything. Find something specific and useful for t
 - Define what signals indicate buying intent for your specific offer
 - Build detection into Clay workflows
 - Route signal-triggered leads differently — they get better copy, faster follow-up
-- Batch leads without signals get the pain-led fallback
+- Batch leads without signals get the segment fallback
 
 ### Experiment cadence
 - Every campaign is an experiment with a hypothesis

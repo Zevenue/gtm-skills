@@ -110,7 +110,7 @@ When the user provides a large list (10+ companies):
 
 This skill feeds into:
 - **/signal-builder** - hiring data is a key input signal (WHEN layer)
-- **/email-writer** - hiring signals inform the "situation" line in PQS emails
+- **/email-writer** - hiring signals inform the "situation" line in Pain-led emails
 - **Prospect scoring** - hiring activity is a timing signal that compounds with other data
 
 When results will be used downstream, output in JSON format for structured processing.

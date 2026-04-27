@@ -31,14 +31,17 @@ linkedin-extract → [your content repurposing skill]
    git clone https://github.com/Zevenue/gtm-skills.git
    cd gtm-skills
    ```
-2. **Drop skills into your project's Claude Code config.** Either copy `.claude/skills/*` into your own project's `.claude/skills/`, or run Claude Code from this directory directly.
-3. **Copy `utils/` and `context/outreach/` into your project root.** The skills reference these paths.
+2. **Install the skills.** Either:
+   - **Globally** (recommended) — copy `.claude/skills/*` into `~/.claude/skills/` so they're available in every Claude Code session, or
+   - **Per project** — copy `.claude/skills/*` into your project's `.claude/skills/`, or run Claude Code from this directory directly.
+3. **Copy `utils/` and the entire `context/` directory into your project root.** The skills reference paths under `context/outreach/`, `context/playbooks/`, and (optionally) `context/offer.md`.
 4. **Set up the environment:**
    ```bash
    cp .env.example .env
    # Fill in APIFY_API_TOKEN and THEIRSTACK_API_KEY as needed
-   pip install requests python-dotenv
+   pip install -r requirements.txt
    ```
+   Python 3.10+ recommended. `signal-builder`, `email-writer`, and `creative-variable` need no Python or API keys at all.
 
 ### API keys
 

@@ -11,7 +11,7 @@ Every campaign is a 3-email sequence. Not 5. Not 7. Three.
 | Email | Timing | Purpose | Max lines | Max words |
 |---|---|---|---|---|
 | Email 1 | Day 1 | Open the conversation — Situation → Insight → Inquisition | 3 | 75 |
-| Email 2 | Day 3-4 | Rotate angle — different proof point, PVP offer, or adjacent pain | 4 | 60 |
+| Email 2 | Day 3-4 | Rotate angle — different proof point, Value-led offer, or adjacent pain | 4 | 60 |
 | Email 3 | Day 7-8 | Final angle — case study, resource, or clean breakup | 4 | 60 |
 
 ## Day spacing rules
@@ -29,9 +29,9 @@ The goal of a sequence is NOT to repeat the same message louder. Each email shou
 
 | Email 1 pattern | Email 2 angle |
 |---|---|
-| PQS (pain-qualified) | PVP — do something useful for them, or share a different proof point |
-| PVP (permissionless value) | PQS — now that you've given value, name the underlying pain |
-| Pain-led (fallback) | Social proof — "talked to 3 companies like yours last month, here's what they said" |
+| Pain-led | Value-led — do something useful for them, or share a different proof point |
+| Value-led | Pain-led — now that you've given value, name the underlying pain |
+| Segment fallback | Social proof — "talked to 3 companies like yours last month, here's what they said" |
 
 ### Email 2 → Email 3 rotation
 

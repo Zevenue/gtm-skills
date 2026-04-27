@@ -41,7 +41,7 @@ For each signal found, determine:
 1. **What was detected** — the specific, factual finding
 2. **What situation it implies** — what the prospect is likely experiencing day-to-day because of this signal
 3. **Signal strength** — how exclusive and high-intent this signal is (see scoring below)
-4. **Recommended approach** — which campaign pattern fits (PQS, PVP, or pain-led)
+4. **Recommended approach** — which campaign pattern fits (Pain-led, Value-led, or Segment fallback)
 5. **Key data points** — specific variables that should feed into email copy
 
 Reference `reference/signal-types.md` for the full catalog of signal categories and what each implies.
@@ -74,9 +74,9 @@ Rank signals from most exclusive/highest intent to broadest. The ranking criteri
 ### Step 5: Recommend campaign approach for each signal
 
 For each ranked signal, recommend one of:
-- **PQS (Pain-Qualified Segment)**: When the signal reveals a specific, acute pain. Lead with "I noticed [signal]. Most companies in your position are dealing with [pain]. Is that you?"
-- **PVP (Permissionless Value Prop)**: When you can demonstrate value before asking for anything. Lead with "I found [specific thing] for you — [insight]. Thought it might be useful."
-- **Pain-led fallback**: When signals are moderate. Lead with the most common pain for their profile and ask if it resonates.
+- **Pain-led**: When the signal reveals a specific, acute pain. Lead with "I noticed [signal]. Most companies in your position are dealing with [pain]. Is that you?"
+- **Value-led**: When you can demonstrate value before asking for anything. Lead with "I found [specific thing] for you — [insight]. Thought it might be useful."
+- **Segment fallback**: When signals are moderate. Lead with the most common pain for their profile and ask if it resonates.
 
 ## Output format
 
@@ -88,7 +88,7 @@ For each ranked signal, recommend one of:
 ### Signal 1: [Signal Name] (Score: X/10)
 **What was detected:** [specific, factual finding from the scan]
 **Situation it implies:** [what the prospect is likely experiencing — written as if describing their Monday morning]
-**Recommended approach:** PQS / PVP / Pain-led
+**Recommended approach:** Pain-led / Value-led / Segment fallback
 **Campaign angle:** [1 sentence: the core message this signal enables]
 **Key data points for copy:**
 - [variable]: [value]

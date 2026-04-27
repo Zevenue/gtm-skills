@@ -16,7 +16,7 @@ Catalog of signal categories to scan for during prospect analysis. Each signal t
 - Job posts asking for experience with the competitor tool (deepening investment — harder to switch, but validates the pain)
 
 **Signal strength:** 8-10 if switching signals present; 5-7 if just using the competitor with no friction signals.
-**Best approach:** PQS — "I noticed you're using [competitor]. Most teams I talk to who run [competitor] end up [specific pain]. Is that your experience?"
+**Best approach:** Pain-led — "I noticed you're using [competitor]. Most teams I talk to who run [competitor] end up [specific pain]. Is that your experience?"
 
 ### Adjacent tool usage
 **What to look for:** Prospect uses tools in the same ecosystem but not a direct competitor. They're solving related problems, which means the core problem likely exists.
@@ -28,7 +28,7 @@ Catalog of signal categories to scan for during prospect analysis. Each signal t
 **What to look for:** No evidence of any tool in the category. Job posts mention manual processes. Website describes workflows that should be automated but aren't.
 **What it implies:** Either the pain isn't acute enough yet, or the team doesn't know solutions exist, or they're too resource-constrained to implement one.
 **Signal strength:** 4-6 (depends on company stage — a Series B with no tooling = higher intent than a pre-seed)
-**Best approach:** PVP — "I mapped out how [similar company] automated [process]. Thought it might be relevant since you seem to be handling this manually."
+**Best approach:** Value-led — "I mapped out how [similar company] automated [process]. Thought it might be relevant since you seem to be handling this manually."
 
 ---
 
@@ -38,7 +38,7 @@ Catalog of signal categories to scan for during prospect analysis. Each signal t
 **What to look for:** Job post for a role whose core responsibilities overlap with what your product does. Sources: LinkedIn jobs, TheirStack, Indeed, company careers page.
 **What it implies:** They're feeling the pain enough to throw headcount at it. If your offer can solve the problem for less than a salary, the ROI case writes itself.
 **Signal strength:** 8-10 (especially if multiple similar roles posted)
-**Best approach:** PQS — "I saw you're hiring a [role]. Most companies hiring for this are spending 40% of that person's time on [task the product automates]. Worth a look?"
+**Best approach:** Pain-led — "I saw you're hiring a [role]. Most companies hiring for this are spending 40% of that person's time on [task the product automates]. Worth a look?"
 
 ### Hiring in adjacent function
 **What to look for:** Hiring in the department or function that your product serves, but not the exact role.
@@ -50,7 +50,7 @@ Catalog of signal categories to scan for during prospect analysis. Each signal t
 **What to look for:** New VP/Director/Head of [relevant function] hire.
 **What it implies:** New leaders audit and fix systems in their first 90 days. They're looking for quick wins and willing to evaluate new tools.
 **Signal strength:** 7-9
-**Best approach:** PQS — "New [title] hires usually audit [area] in their first quarter. One thing that usually comes up is [pain]. Seeing that?"
+**Best approach:** Pain-led — "New [title] hires usually audit [area] in their first quarter. One thing that usually comes up is [pain]. Seeing that?"
 
 ---
 
@@ -66,7 +66,7 @@ Catalog of signal categories to scan for during prospect analysis. Each signal t
 **What to look for:** Opening new offices, entering new markets, launching new products. Sources: press releases, LinkedIn, job posts in new locations.
 **What it implies:** Expansion creates operational strain. Processes that worked at one location/market break when replicated.
 **Signal strength:** 6-7
-**Best approach:** Pain-led or PVP — reference the specific expansion and the operational challenge it creates.
+**Best approach:** Pain-led or Value-led — reference the specific expansion and the operational challenge it creates.
 
 ---
 
@@ -76,7 +76,7 @@ Catalog of signal categories to scan for during prospect analysis. Each signal t
 **What to look for:** G2, Capterra, Trustpilot, app store reviews that mention issues your product could address (slow onboarding, bad integrations, manual processes, poor support).
 **What it implies:** Their customers are feeling pain that traces back to an operational gap your offer can fill.
 **Signal strength:** 7-9 (if reviews specifically mention the problem area)
-**Best approach:** PVP — "I was reading your G2 reviews and noticed [X pattern]. Most companies I work with solve this by [approach]. Want me to show you how?"
+**Best approach:** Value-led — "I was reading your G2 reviews and noticed [X pattern]. Most companies I work with solve this by [approach]. Want me to show you how?"
 
 ### Pricing / business model signals
 **What to look for:** Pricing page reveals their market positioning, margins, and who they serve. Fee structures that create friction for their customers.
@@ -88,7 +88,7 @@ Catalog of signal categories to scan for during prospect analysis. Each signal t
 **What to look for:** Social media posts, forum threads, Reddit, or support pages indicating operational problems. Sources: Twitter/X, Reddit, community forums, support docs.
 **What it implies:** The pain is real enough that people are talking about it publicly.
 **Signal strength:** 7-9
-**Best approach:** PQS — reference the specific complaint pattern.
+**Best approach:** Pain-led — reference the specific complaint pattern.
 
 ---
 
@@ -98,19 +98,19 @@ Catalog of signal categories to scan for during prospect analysis. Each signal t
 **What to look for:** Prospect's blog discusses challenges in the area your product serves. They're writing about the pain, researching solutions, or sharing their approach.
 **What it implies:** They're problem-aware. They know the challenge exists. They may be evaluating solutions or building internally.
 **Signal strength:** 6-8 (higher if the content is recent and indicates active evaluation)
-**Best approach:** PVP — reference their content and add a specific insight they didn't cover.
+**Best approach:** Value-led — reference their content and add a specific insight they didn't cover.
 
 ### Conference attendance / speaking
 **What to look for:** Team members attending or speaking at conferences related to your space. Sources: event websites, LinkedIn posts, Apify scrapers.
 **What it implies:** They're investing time in the problem space. Conference attendees are often evaluating vendors or looking for best practices.
 **Signal strength:** 5-7
-**Best approach:** PQS — reference the conference and the specific topic as a hook.
+**Best approach:** Pain-led — reference the conference and the specific topic as a hook.
 
 ### Job description language
 **What to look for:** Job descriptions that describe the problem your offer solves — even if the role itself isn't a direct match. Language like "manage multiple tools," "streamline processes," "reduce manual work."
 **What it implies:** The pain is embedded in how they describe their own operations.
 **Signal strength:** 6-8
-**Best approach:** PQS — quote the JD language back to them.
+**Best approach:** Pain-led — quote the JD language back to them.
 
 ---
 

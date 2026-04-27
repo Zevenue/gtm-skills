@@ -4,12 +4,12 @@ Real-pattern examples drawn from Zevenue campaigns. Each annotated with signal u
 
 ---
 
-## Example 1: Job Post Signal → PQS
+## Example 1: Job Post Signal → Pain-led
 
 **Context:** Offer is supply chain monitoring software. Prospect is a mid-market manufacturer that posted a job for "Supply Chain Coordinator" with responsibilities including "tracking shipments, coordinating with suppliers via email, and resolving delivery exceptions."
 
 **Signal:** Hiring for a role whose core tasks the product automates (Score: 9/10)
-**Pattern:** PQS (Pain-Qualified Segment)
+**Pattern:** Pain-led
 
 ```
 Subject: coordinator role
@@ -28,12 +28,12 @@ Is that where your team's time is going too?
 
 ---
 
-## Example 2: Tech Stack Signal → PQS
+## Example 2: Tech Stack Signal → Pain-led
 
 **Context:** Offer is an events/community platform. Prospect is a yoga studio using Mindbody for booking and a separate Eventbrite page for workshops.
 
 **Signal:** Fragmented tech stack — two platforms doing what one should (Score: 7/10)
-**Pattern:** PQS
+**Pattern:** Pain-led
 
 ```
 Subject: mindbody + eventbrite
@@ -75,12 +75,12 @@ Already building that, or still figuring out what breaks first?
 
 ---
 
-## Example 4: Review Signal → PVP
+## Example 4: Review Signal → Value-led
 
 **Context:** Offer is customer onboarding software. Prospect's product has G2 reviews mentioning "slow onboarding" and "confusing setup process."
 
 **Signal:** Negative reviews mentioning the exact problem your offer solves (Score: 9/10)
-**Pattern:** PVP (Permissionless Value Prop)
+**Pattern:** Value-led
 
 ```
 Subject: onboarding reviews
@@ -91,7 +91,7 @@ Want me to send it over?
 ```
 
 **Why it works:**
-- **Value line** demonstrates work already done (read 20 reviews, counted, categorized) — this is the "permissionless" part
+- **Value line** demonstrates work already done (read 20 reviews, counted, categorized) — this is the "value-first" part
 - **Context line** promises a specific, useful deliverable (three patterns)
 - **Soft open** makes it easy to say yes without committing to a meeting
 - Prospect's natural response is "sure, send it" — which opens the conversation
@@ -99,12 +99,12 @@ Want me to send it over?
 
 ---
 
-## Example 5: No Signal → Pain-led Fallback
+## Example 5: No Signal → Segment Fallback
 
 **Context:** Offer is warehouse management software. Prospect is a mid-market e-commerce company, 200 employees, no specific signals found beyond ICP match.
 
 **Signal:** ICP match, no behavioral signals (Score: 3/10)
-**Pattern:** Pain-led fallback
+**Pattern:** Segment fallback
 
 ```
 Subject: warehouse ops
@@ -123,12 +123,12 @@ Is fulfillment accuracy something you're tracking closely, or more of a "we'll d
 
 ---
 
-## Example 6: Conference Signal → PQS
+## Example 6: Conference Signal → Pain-led
 
 **Context:** Offer is procurement automation. Prospect's VP of Supply Chain spoke at an industry conference on "reducing supplier lead time variability."
 
 **Signal:** Conference speaking on a topic your offer addresses (Score: 7/10)
-**Pattern:** PQS
+**Pattern:** Pain-led
 
 ```
 Subject: lead time variability
@@ -150,9 +150,9 @@ Is that where it breaks for your team too?
 
 | # | Signal Type | Pattern | Key Technique | Word Count |
 |---|---|---|---|---|
-| 1 | Job post | PQS | Quote JD responsibilities back | 47 |
-| 2 | Tech stack | PQS | Name both tools, quantify the gap | 52 |
+| 1 | Job post | Pain-led | Quote JD responsibilities back | 47 |
+| 2 | Tech stack | Pain-led | Name both tools, quantify the gap | 52 |
 | 3 | Funding + hiring | Pain-led | Reference the exact scaling transition | 55 |
-| 4 | Reviews | PVP | Do the work first, offer the output | 44 |
-| 5 | No signal (fallback) | Pain-led | Most common pain for the segment | 62 |
-| 6 | Conference | PQS | Reference specific talk + add depth | 53 |
+| 4 | Reviews | Value-led | Do the work first, offer the output | 44 |
+| 5 | No signal (fallback) | Segment fallback | Most common pain for the segment | 62 |
+| 6 | Conference | Pain-led | Reference specific talk + add depth | 53 |

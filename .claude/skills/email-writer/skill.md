@@ -8,7 +8,7 @@ The user will provide:
 1. **Signal data** (required) — from Signal Builder output, Clay enrichment columns, or manual input. At minimum: what signal/pain was identified and key data points.
 2. **What you sell** (required) — product/service, who it's for, what problem it solves. If an offer file exists at `context/offer.md`, read it first.
 3. **Prospect info** (required) — first name, company name, role. Additional enrichment data optional.
-4. **Campaign type** (optional) — PQS, PVP, or auto-detect based on signal strength.
+4. **Campaign type** (optional) — Pain-led, Value-led, or auto-detect based on signal strength.
 
 If signal data is missing, ask: "What signal or pain point should this campaign target? What do you know about the prospect's situation?"
 
@@ -29,7 +29,7 @@ Read `context/outreach/outreach-principles.md` and `context/outreach/email-voice
 
 ## Campaign patterns
 
-### PQS (Pain-Qualified Segment)
+### Pain-led
 **When to use:** Signal reveals specific, acute pain. Score 7+ from Signal Builder, or clear pain indicator from Clay/manual data.
 **Structure:**
 - **Line 1 (Situation):** Describe the prospect's reality based on the signal. Be specific. Name the tool, the role, the process — whatever the signal revealed.
@@ -41,7 +41,7 @@ Read `context/outreach/outreach-principles.md` and `context/outreach/email-voice
 > The ones I've worked with found that [specific insight about the root cause or a better way].
 > Is that your experience too, or am I off?
 
-### PVP (Permissionless Value Prop)
+### Value-led
 **When to use:** You can demonstrate value before asking for anything. Works best when you have specific data about the prospect (from enrichment or research) that you can package as a gift.
 **Structure:**
 - **Line 1 (Value delivered):** "I found/built/noticed [specific thing] for [company]."
@@ -53,7 +53,7 @@ Read `context/outreach/outreach-principles.md` and `context/outreach/email-voice
 > Most companies in your space are [doing X], but you might be leaving [Y] on the table.
 > Want the full breakdown?
 
-### Pain-led fallback
+### Segment fallback
 **When to use:** Signal score 3-6, or no specific behavioral signals found. Use the most common pain for their profile.
 **Structure:**
 - **Line 1 (Common situation):** Describe the most common pain for companies like theirs — be concrete, not generic.
@@ -73,9 +73,9 @@ Check `context/offer.md` (or whatever offer context the user provided). Understa
 - Any proof points or case studies
 
 ### Step 3: Select pattern
-- Signal score 7+, specific pain → **PQS**
-- Strong enrichment data, can deliver value upfront → **PVP**
-- Signal score 3-6, general pain → **Pain-led fallback**
+- Signal score 7+, specific pain → **Pain-led**
+- Strong enrichment data, can deliver value upfront → **Value-led**
+- Signal score 3-6, general pain → **Segment fallback**
 - User explicitly requested a pattern → use that pattern
 
 ### Step 4: Draft Email 1
@@ -83,7 +83,7 @@ Write Situation → Insight → Inquisition. Three lines. Under 75 words.
 
 ### Step 5: Draft follow-ups
 See `reference/sequence-framework.md` for full sequencing rules. Summary:
-- **Email 2 (Day 3-4):** Rotate the angle. If Email 1 was PQS, Email 2 can be PVP or a different pain angle. Can thread or start new subject.
+- **Email 2 (Day 3-4):** Rotate the angle. If Email 1 was Pain-led, Email 2 can be Value-led or a different pain angle. Can thread or start new subject.
 - **Email 3 (Day 7-8):** Third angle — case study (brief), resource offer, or direct breakup. New thread.
 
 ### Step 6: Run quality self-check
@@ -120,7 +120,7 @@ If any check fails, rewrite the email before presenting it.
 
 ```
 ## Campaign: [Signal/Approach Name]
-**Pattern:** PQS / PVP / Pain-led
+**Pattern:** Pain-led / Value-led / Segment fallback
 **Signal used:** [what data drives this campaign]
 **Offer:** [what you sell]
 **Prospect:** [name, company, role]
@@ -137,7 +137,7 @@ Word count: [X] | Lines: [X]
 ### Email 2 (Day [3-4])
 Subject: [threads or new]
 
-[Different angle — rotate value prop, use PVP, or highlight a different pain]
+[Different angle — rotate value prop, use Value-led, or highlight a different pain]
 
 Word count: [X] | Lines: [X]
 
