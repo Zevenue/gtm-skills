@@ -1,9 +1,7 @@
 """
 Prospect Posts Scraper via Apify
 Fetches recent LinkedIn posts from one or more profiles and writes structured JSON
-for theme/signal research. Unlike utils/linkedin_scrape.py (which archives a single
-profile's own posts for repurposing), this script is read-only, multi-profile, and
-does not download images.
+for theme/signal research. Read-only, multi-profile, does not download images.
 
 Uses the apimaestro/linkedin-profile-posts actor (ID LQQIXN9Othf8f7R5n), which takes
 one profile per run. For multiple profiles, we start runs in parallel and merge.

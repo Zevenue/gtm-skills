@@ -2,7 +2,7 @@
 
 You scrape the most recent LinkedIn posts of one or more profiles via Apify and scan them for a specific theme the user cares about (e.g. "AI-first GTM", "hiring pain", "pivoting to enterprise"). Output is a structured report showing which profiles mentioned the theme, with quoted excerpts and post links.
 
-This is research for prospect/account intelligence. It is distinct from `linkedin-extract`, which archives a single profile's own posts for blog repurposing.
+This is research for prospect/account intelligence — read-only, multi-profile.
 
 ## How to invoke
 

@@ -13,7 +13,6 @@ If you run outbound, do RevOps, or build GTM systems, these are drop-in skills t
 | [`creative-variable`](.claude/skills/creative-variable/) | Specs the personalization variables for a campaign — names, grammar, sources, Claygent prompts, fallbacks, rendered examples. Encodes the four archetypes (verbatim-pain, manual-task, strategic-alternative, failure-mode). |
 | [`prospect-posts`](.claude/skills/prospect-posts/) | Scrapes recent LinkedIn posts from one or more prospect profiles via Apify and scans them for a given theme. Useful for account intelligence. |
 | [`job-search`](.claude/skills/job-search/) | Queries the TheirStack API for job postings at a set of companies. Hiring patterns are one of the strongest timing signals for outbound. |
-| [`linkedin-extract`](.claude/skills/linkedin-extract/) | Archives your own LinkedIn posts locally for blog/newsletter repurposing. |
 
 They chain:
 
@@ -21,7 +20,6 @@ They chain:
 signal-builder → creative-variable → email-writer    (core outbound loop)
 job-search     → signal-builder                      (hiring is a signal input)
 prospect-posts → signal-builder                      (content signals feed targeting)
-linkedin-extract → [your content repurposing skill]
 ```
 
 ## Install
@@ -47,7 +45,7 @@ linkedin-extract → [your content repurposing skill]
 
 | Variable | Used by | Get one at |
 |---|---|---|
-| `APIFY_API_TOKEN` | `prospect-posts`, `linkedin-extract` | https://console.apify.com/account/integrations |
+| `APIFY_API_TOKEN` | `prospect-posts` | https://console.apify.com/account/integrations |
 | `THEIRSTACK_API_KEY` | `job-search` | https://app.theirstack.com/settings/api |
 
 `signal-builder` and `email-writer` don't need external APIs — they run on Claude + your context.
@@ -62,7 +60,6 @@ In Claude Code, invoke by name:
 /creative-variable [campaign angle]      [ICP]                 [existing copy?]
 /job-search        stripe.com,notion.so  --title "SDR,BDR"
 /prospect-posts    https://linkedin.com/in/someone  "AI-first GTM"
-/linkedin-extract  https://linkedin.com/in/your-handle  --count 20
 ```
 
 Each skill's `skill.md` is the authoritative spec for what it expects and what it returns.
