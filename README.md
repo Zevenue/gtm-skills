@@ -6,8 +6,11 @@ If you run outbound, do RevOps, or build GTM systems, these are drop-in skills t
 
 ## What's in here
 
+Run [`gtm-context`](.claude/skills/gtm-context/) **first**. It writes the context layer (`offer.md`, `icp.md`) that every other skill reads from. Skip this and downstream output quality drops sharply.
+
 | Skill | What it does |
 |---|---|
+| [`gtm-context`](.claude/skills/gtm-context/) | **Run this first.** Walks you through capturing your offer, ICP, and engagement signals. Writes `context/offer.md` and `context/icp.md`. Every other skill reads from these. |
 | [`signal-builder`](.claude/skills/signal-builder/) | Scans a prospect's website + enrichment data and produces a ranked signal analysis. Scores each signal 1-10 and recommends a campaign approach per signal. |
 | [`email-writer`](.claude/skills/email-writer/) | Generates 3-email cold campaigns using the Situation → Insight → Inquisition methodology. Enforces deliverability rules, word limits, and a QA checklist. |
 | [`creative-variable`](.claude/skills/creative-variable/) | Specs the personalization variables for a campaign — names, grammar, sources, Claygent prompts, fallbacks, rendered examples. Encodes the four archetypes (verbatim-pain, manual-task, strategic-alternative, failure-mode). |
@@ -17,6 +20,7 @@ If you run outbound, do RevOps, or build GTM systems, these are drop-in skills t
 They chain:
 
 ```
+gtm-context    → (writes context/offer.md + context/icp.md, read by every skill below)
 signal-builder → creative-variable → email-writer    (core outbound loop)
 job-search     → signal-builder                      (hiring is a signal input)
 prospect-posts → signal-builder                      (content signals feed targeting)
@@ -52,9 +56,10 @@ prospect-posts → signal-builder                      (content signals feed tar
 
 ## Use
 
-In Claude Code, invoke by name:
+In Claude Code, invoke by name. **Run `/gtm-context` first** to set up the context layer — every other skill loads from it.
 
 ```
+/gtm-context                                                         (run first, once per workspace)
 /signal-builder    https://prospect.com  [offer-context]
 /email-writer      [signal output]       [offer-context]       [prospect info]
 /creative-variable [campaign angle]      [ICP]                 [existing copy?]
